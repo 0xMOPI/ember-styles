@@ -1,0 +1,106 @@
+/* -- Aetheris -- */
+
+#container #inner, .container-context-menu {
+  background-image: linear-gradient(#2E3339FF, #2E3339FF);
+}
+
+.container-context-menu .item-group .react-contextmenu-item,
+#container #inner #content #player-table .row.player > .column:nth-child(2),
+#container #inner #content #player-table.grid .row.player .player-data>.column:nth-child(2) {
+  color: white;
+}
+
+#container #inner #content #player-table.grid .row.player .stat-data>.column span {
+  color: #45B2ADFF;
+}
+
+#container #inner #content #player-table .row .column {
+  color: white;
+  position:relative;
+  z-index:1;
+}
+
+#container #inner #content #player-detail .header .name {
+  color: hsla(0, 0%, 100%, .7);
+}
+
+#container #inner #game-state {
+  color: hsla(0, 0%, 100%, .7);
+  font-weight: 400;
+  background: none;
+  box-shadow: none;
+}
+
+.react-tooltip, .react-tooltip::after {
+  background: #1D1E26FF !important;
+  border: none !important;
+}
+
+#container #inner #footer #role-links .role-link.active {
+  background: #45B2ADFF;
+  box-shadow: none;
+  color: white;
+}
+
+#container #inner #footer #role-links .role-link:hover,
+#container #inner #footer #navigation-links .navigation-link:hover,
+.icon-container:hover {
+  background: #5E6269FF !important;
+  box-shadow: none !important;
+  color: white !important;
+}
+
+#container>.toggle {
+  background: #45B2ADFF !important;
+  box-shadow: inset 0 2px 2px 0 rgba(0, 0, 0, .5);
+}
+
+.placeholder,
+.placeholder .inner {
+  box-shadow: none;
+  background: #2E3339FF;
+}
+
+/* -- Aetheris Icons -- */
+img[alt="Minimized button"] { content: url("https://raw.githubusercontent.com/0xMOPI/ember-styles/main/aetheris-minimal/icons/ffxiv.png") !important; }
+
+/* Tanks */
+img[alt="GLA icon"] { content: url("https://raw.githubusercontent.com/0xMOPI/ember-styles/main/aetheris-minimal/icons/original/GLA.png") !important; }
+img[alt="PLD icon"] { content: url("https://raw.githubusercontent.com/0xMOPI/ember-styles/main/aetheris-minimal/icons/original/PLD.png") !important; }
+img[alt="MRD icon"] { content: url("https://raw.githubusercontent.com/0xMOPI/ember-styles/main/aetheris-minimal/icons/original/MRD.png") !important; }
+img[alt="WAR icon"] { content: url("https://raw.githubusercontent.com/0xMOPI/ember-styles/main/aetheris-minimal/icons/original/WAR.png") !important; }
+img[alt="DRK icon"] { content: url("https://raw.githubusercontent.com/0xMOPI/ember-styles/main/aetheris-minimal/icons/original/DRK.png") !important; }
+img[alt="GNB icon"] { content: url("https://raw.githubusercontent.com/0xMOPI/ember-styles/main/aetheris-minimal/icons/original/GNB.png") !important; }
+
+/* Melee DPS */
+img[alt="PGL icon"] { content: url("https://raw.githubusercontent.com/0xMOPI/ember-styles/main/aetheris-minimal/icons/original/PGL.png") !important; }
+img[alt="MNK icon"] { content: url("https://raw.githubusercontent.com/0xMOPI/ember-styles/main/aetheris-minimal/icons/original/MNK.png") !important; }
+img[alt="LNC icon"] { content: url("https://raw.githubusercontent.com/0xMOPI/ember-styles/main/aetheris-minimal/icons/original/LNC.png") !important; }
+img[alt="DRG icon"] { content: url("https://raw.githubusercontent.com/0xMOPI/ember-styles/main/aetheris-minimal/icons/original/DRG.png") !important; }
+img[alt="ROG icon"] { content: url("https://raw.githubusercontent.com/0xMOPI/ember-styles/main/aetheris-minimal/icons/original/ROG.png") !important; }
+img[alt="NIN icon"] { content: url("https://raw.githubusercontent.com/0xMOPI/ember-styles/main/aetheris-minimal/icons/original/NIN.png") !important; }
+img[alt="SAM icon"] { content: url("https://raw.githubusercontent.com/0xMOPI/ember-styles/main/aetheris-minimal/icons/original/SAM.png") !important; }
+img[alt="RPR icon"] { content: url("https://raw.githubusercontent.com/0xMOPI/ember-styles/main/aetheris-minimal/icons/original/RPR.png") !important; }
+img[alt="VPR icon"] { content: url("https://raw.githubusercontent.com/0xMOPI/ember-styles/main/aetheris-minimal/icons/original/VPR.png") !important; }
+
+/* Ranged Phys DPS */
+img[alt="ARC icon"] { content: url("https://raw.githubusercontent.com/0xMOPI/ember-styles/main/aetheris-minimal/icons/coloured/ARC.png") !important; }
+img[alt="BRD icon"] { content: url("https://raw.githubusercontent.com/0xMOPI/ember-styles/main/aetheris-minimal/icons/coloured/BRD.png") !important; }
+img[alt="DNC icon"] { content: url("https://raw.githubusercontent.com/0xMOPI/ember-styles/main/aetheris-minimal/icons/coloured/DNC.png") !important; }
+img[alt="MCH icon"] { content: url("https://raw.githubusercontent.com/0xMOPI/ember-styles/main/aetheris-minimal/icons/coloured/MCH.png") !important; }
+
+/* Magical DPS */
+img[alt="ACN icon"] { content: url("https://raw.githubusercontent.com/0xMOPI/ember-styles/main/aetheris-minimal/icons/coloured/ACN.png") !important; }
+img[alt="SMN icon"] { content: url("https://raw.githubusercontent.com/0xMOPI/ember-styles/main/aetheris-minimal/icons/coloured/SMN.png") !important; }
+img[alt="THM icon"] { content: url("https://raw.githubusercontent.com/0xMOPI/ember-styles/main/aetheris-minimal/icons/coloured/THM.png") !important; }
+img[alt="BLM icon"] { content: url("https://raw.githubusercontent.com/0xMOPI/ember-styles/main/aetheris-minimal/icons/coloured/BLM.png") !important; }
+img[alt="RDM icon"] { content: url("https://raw.githubusercontent.com/0xMOPI/ember-styles/main/aetheris-minimal/icons/coloured/RDM.png") !important; }
+img[alt="BLU icon"] { content: url("https://raw.githubusercontent.com/0xMOPI/ember-styles/main/aetheris-minimal/icons/coloured/BLU.png") !important; }
+img[alt="PCT icon"] { content: url("https://raw.githubusercontent.com/0xMOPI/ember-styles/main/aetheris-minimal/icons/coloured/PCT.png") !important; }
+
+/* Healers */
+img[alt="CNJ icon"] { content: url("https://raw.githubusercontent.com/0xMOPI/ember-styles/main/aetheris-minimal/icons/original/CNJ.png") !important; }
+img[alt="WHM icon"] { content: url("https://raw.githubusercontent.com/0xMOPI/ember-styles/main/aetheris-minimal/icons/original/WHM.png") !important; }
+img[alt="AST icon"] { content: url("https://raw.githubusercontent.com/0xMOPI/ember-styles/main/aetheris-minimal/icons/original/AST.png") !important; }
+img[alt="SCH icon"] { content: url("https://raw.githubusercontent.com/0xMOPI/ember-styles/main/aetheris-minimal/icons/original/SCH.png") !important; }
+img[alt="SGE icon"] { content: url("https://raw.githubusercontent.com/0xMOPI/ember-styles/main/aetheris-minimal/icons/original/SGE.png") !important; }
