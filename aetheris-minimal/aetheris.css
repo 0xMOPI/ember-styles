@@ -61,6 +61,11 @@
   background: #2E3339FF;
 }
 
+.placeholder {
+  border-radius: 6px;
+  box-shadow: 0px 0px 2px 1px rgba(0, 0, 0, 0.2) !important;
+}
+
 /* -- Aetheris Icons -- */
 img[alt="Minimized button"] { content: url("https://raw.githubusercontent.com/0xMOPI/ember-styles/main/aetheris-minimal/icons/ffxiv.png") !important; }
 
